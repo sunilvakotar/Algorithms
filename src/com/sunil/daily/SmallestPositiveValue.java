@@ -22,6 +22,7 @@ public class SmallestPositiveValue {
         System.out.println("Smallest Positive integer:"+ firstMissingPositiveOptimal(list));
     }
 
+    //time complexity is O(n) with one extra space
     private static int firstMissingPositiveOptimal(int[] list) {
         int n = list.length;
         int val, nextVal;
@@ -52,6 +53,7 @@ public class SmallestPositiveValue {
         return n+1;
     }
 
+    //time complexity is O(n) with O(n) space
     private static int firstMissingPositive(int[] list){
         Set<Integer> set = new HashSet<>();
         for (int num : list) {
