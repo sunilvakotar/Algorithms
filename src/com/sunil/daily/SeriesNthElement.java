@@ -6,10 +6,13 @@ package com.sunil.daily;
     find the nth term?
  */
 
+import java.time.Instant;
+
 public class SeriesNthElement {
+    static int y = 10;
     public static void main(String[] args) {
         int n = 8;
-
+        System.out.println(Instant.now());
         System.out.println("N th element:"+findNthElement(n));
         System.out.println("N th element Optimal:"+findOptimalWay(n));
 
