@@ -39,8 +39,6 @@ public class BFSArray2d {
     }
 
     private void bfsTraversal(int[][] array) {
-        String search = "";
-
         int height = array.length;
         if(height == 0){
             return;
